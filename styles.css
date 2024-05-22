@@ -1,0 +1,39 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background: conic-gradient(
+    from 36deg at 20% 80%,
+    red 6deg,
+    orange 6deg 18deg,
+    yellow 18deg 45deg,
+    green 45deg 110deg,
+    blue 110deg 200deg,
+    purple 200deg
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  text-align: center;
+}
+
+pre {
+  font-family: monospace;
+  font-size: 16px; /* Adjust font size as needed */
+  color: rgb(0, 0, 0);
+  /* font-weight: bold; */
+  text-align: center;
+}
+
+h1 {
+  color: blue;
+}
