@@ -2,6 +2,7 @@ html,
 body {
   height: 100%;
   margin: 0;
+  scrollbar-width: none;
   background: conic-gradient(
     from 36deg at 20% 80%,
     red 6deg,
@@ -28,7 +29,7 @@ body {
 
 pre {
   font-family: monospace;
-  font-size: 16px; /* Adjust font size as needed */
+  font-size: 8px; /* Adjust font size as needed */
   color: rgb(0, 0, 0);
   /* font-weight: bold; */
   text-align: center;
@@ -36,4 +37,41 @@ pre {
 
 h1 {
   color: blue;
+}
+
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+  pre {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  pre {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
 }
